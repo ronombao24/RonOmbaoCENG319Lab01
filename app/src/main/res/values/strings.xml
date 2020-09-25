@@ -1,0 +1,21 @@
+<!--Strings to be printed.-->
+<resources>
+    <string name="app_name">Ron Ombao CENG 319 Lab 01</string>
+    <string name="header_title">Life Cycle and Fragments Demonstration</string>
+    <string name="main_activity_header">Main Activity:   </string>
+    <string name="display_activity_header">Display Fragment:  </string>
+    <string name="activity_fragment_header">Activity Fragment: </string>
+    <string name="disFragment">Fragment, </string>
+    <string name="onCreateNotif">onCreate() executes.</string>
+    <string name="onStartNotif">onStart() executes.</string>
+    <string name="onStopNotif">onStop() executes.</string>
+    <string name="onPauseNotif" >onPause() executes.</string>
+    <string name="onResumeNotif" >onResume() executes.</string>
+    <string name="onDestroyNotif" >onDestroy() executes.</string>
+    <string name="onCreateViewNotif">onCreateView() executes.</string>
+    <string name="text_dummy">Hello blank fragment</string>
+    <string-array name="activity_buttons">
+        <item>"AIActivity"</item>
+        <item>"VRActivity"</item>
+    </string-array>
+</resources>
