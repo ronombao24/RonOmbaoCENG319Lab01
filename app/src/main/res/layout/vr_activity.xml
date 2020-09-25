@@ -9,7 +9,7 @@
     tools:context=".VRActivity">
 
     <TextView
-        android:id="@+id/vrView"
+        android:id="@+id/vrActivityView"
         android:layout_width="407dp"
         android:layout_height="302dp"
         android:layout_marginTop="16dp"

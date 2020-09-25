@@ -3,7 +3,6 @@ package com.example.ronombaoceng319lab01;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
     FragmentDisplay fragment;
@@ -24,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart()
     {
         super.onStart();
-        string = "\n"+getString(R.string.onStartNotif);
+        string = "\n" + getString(R.string.onStartNotif);
         fragment.displayStatus(string);
     }
 
@@ -32,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onStop()
     {
         super.onStop();
-        string = "\n"+getString(R.string.onStopNotif);
+        string = "\n" + getString(R.string.onStopNotif);
         fragment.displayStatus(string);
     }
 
@@ -40,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onPause()
     {
         super.onPause();
-        string = "\n"+getString(R.string.onPauseNotif);
+        string = "\n" + getString(R.string.onPauseNotif);
         fragment.displayStatus(string);
     }
 
@@ -48,15 +47,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume()
     {
         super.onResume();
-        string = "\n"+getString(R.string.onResumeNotif);
+        string = "\n" + getString(R.string.onResumeNotif);
         fragment.displayStatus(string);
     }
 
     @Override
     protected void onDestroy()
-    { //we  wont be able to see onDestroy but it is still processed
+    {
         super.onDestroy();
-        string = "\n"+getString(R.string.onDestroyNotif);
+        string = "\n" + getString(R.string.onDestroyNotif);
         fragment.displayStatus(string);
     }
 }

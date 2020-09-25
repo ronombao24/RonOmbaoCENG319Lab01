@@ -19,7 +19,7 @@ public class VRActivity  extends AppCompatActivity
 
         Intent intent = getIntent();
         String string = intent.getStringExtra("activity");
-        text = findViewById(R.id.vrView);
+        text = findViewById(R.id.vrActivityView);
         text.setText(string + placeholder);
         text.append(getString(R.string.onCreateNotif) + "\n");
     }

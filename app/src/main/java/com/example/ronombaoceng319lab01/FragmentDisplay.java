@@ -22,7 +22,7 @@ public class FragmentDisplay extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
-        String string = getString(R.string.display_activity_header)+""+getString(R.string.onCreateNotif);
+        String string = getString(R.string.display_activity_header) + "" +getString(R.string.onCreateNotif);
 
 
         Toast toast = Toast.makeText(getContext(), string, Toast.LENGTH_SHORT);

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_activity_header">Activité principale</string>
+    <string name="display_activity_header">Fragment d’affichage:</string>
+    <string name="activity_fragment_header">Fragment d’activité:</string>
+    <string name="onCreateNotif">onCreate() exécute.</string>
+    <string name="onStartNotif">onStart() exécute.</string>
+    <string name="onStopNotif">onStop() exécute.</string>
+    <string name="onPauseNotif">onPause() exécute.</string>
+    <string name="onResumeNotif">onResume() exécute.</string>
+    <string name="onDestroyNotif">onDestroy() exécute.</string>
+    <string name="header_title">Démonstration de fragments de cycle de vie</string>
+</resources>
