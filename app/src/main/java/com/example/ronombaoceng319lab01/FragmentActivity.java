@@ -36,7 +36,7 @@ public class FragmentActivity extends Fragment
             {
                 if (pos == 0)
                 {
-                    Intent intent = new Intent(getActivity(), AIActivity.class);
+                    Intent intent = new Intent(getActivity(), VRActivity.class);
                     intent.putExtra("activity", "AIActivity");
                     startActivity(intent);
                 }

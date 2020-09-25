@@ -24,7 +24,7 @@
 
     <fragment
         android:id="@+id/activityFrag"
-        android:name="com.example.ronombao_ceng319lab1.FragmentActivity"
+        android:name="com.example.ronombaoceng319lab01.FragmentActivity"
         android:layout_width="414dp"
         android:layout_height="314dp"
         android:layout_marginTop="44dp"
@@ -35,7 +35,7 @@
 
     <fragment
         android:id="@+id/displayFragments"
-        android:name="com.example.ronombao_ceng319lab1.FragmentDisplay"
+        android:name="com.example.ronombaoceng319lab01.FragmentDisplay"
         android:layout_width="409dp"
         android:layout_height="374dp"
         app:layout_constraintBottom_toBottomOf="parent"

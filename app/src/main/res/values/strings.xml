@@ -12,7 +12,6 @@
     <string name="onPauseNotif" >onPause() executes.</string>
     <string name="onResumeNotif" >onResume() executes.</string>
     <string name="onDestroyNotif" >onDestroy() executes.</string>
-    <string name="onCreateViewNotif">onCreateView() executes.</string>
     <string name="text_dummy">Hello blank fragment</string>
     <string-array name="activity_buttons">
         <item>"AIActivity"</item>
